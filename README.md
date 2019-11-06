@@ -12,7 +12,7 @@ Project development: Web Development
 Frontend: HTML, CSS, JavaScript, AngularJS, Bootstrap
 Backend: Python, Node.js, MongoDB, ExpressJS
 
-### Features
+## Features
  - Evaluating test: 
 This module of our project is a test of 10 questions to evaluate the degree of depression in the user and the intensity with which the organization will observe the user. 
 There are 3 degrees of depression in a user, namely, level 1, level 2, and level 3.
@@ -31,7 +31,7 @@ background everytime the site is loaded.
 
  - Working on adding a anonymous forums module and a data analysis tool to aggregate data by region and age. 
 
-### Steps to run
+## Steps to run
  - Download the zip file and unzip it
  - Or clone the source files 
  - Open the browser and run the app.js file in the meanauthapp folder uisng the command 'node app.js'.
