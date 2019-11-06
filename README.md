@@ -6,25 +6,25 @@ depression evaluating tests can help both the individual by instilling him/her w
 thoughts and also the organization by understanding the group of people and areas being
 affecting the most.
 
-## Technologies
+## Technologies: 
 
 Project development: Web Development
 Frontend: HTML, CSS, JavaScript, AngularJS, Bootstrap
 Backend: Python, Node.js, MongoDB, ExpressJS
 
 ### Features
- - Evaluating test
+ - Evaluating test: 
 This module of our project is a test of 10 questions to evaluate the degree of depression in the user and the intensity with which the organization will observe the user. 
 There are 3 degrees of depression in a user, namely, level 1, level 2, and level 3.
 The score of the quiz ranges between 10 and 40, 40 being the most vulnerable user.
 This quiz will be given by the user after registration and his level will be evaluated.
 His response will also be recorded so that the admin may offer additional help later on.
 
- - Games
+ - Games: 
 Here, we have included some arcade games to balance the user’s mind by providing a soothing
 experience.
  
- - Calming ubiquity
+ - Calming ubiquity: 
 We have included soothing images, and motivational quotes so that the user gets a calm vibe.
 One more thing we have focused on is, we have included a calming nature’s sound which will be played in the
 background everytime the site is loaded. 
@@ -34,4 +34,4 @@ background everytime the site is loaded.
 ### Steps to run
  - Download the zip file and unzip it
  - Or clone the source files 
- - Open the browser and run the app.js file in the login file.
+ - Open the browser and run the app.js file in the meanauthapp folder uisng the command 'node app.js'.
