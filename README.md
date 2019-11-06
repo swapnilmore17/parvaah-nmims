@@ -1,38 +1,37 @@
-# 2048
-A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
+# Parvaah - Suicide Prevention Portal
+This project was made in a 12 hour hackathon at NMIMS, Mumbai.
+The goal of this project is to diminish this crisis in our country by providing different modules
+to help the impacted personnel. Modules like games, chat forums, one-to-one chat and
+depression evaluating tests can help both the individual by instilling him/her with positive
+thoughts and also the organization by understanding the group of people and areas being
+affecting the most.
 
-Made just for fun. [Play it here!](http://gabrielecirulli.github.io/2048/)
+## Technologies
 
-The official app can also be found on the [Play Store](https://play.google.com/store/apps/details?id=com.gabrielecirulli.app2048) and [App Store!](https://itunes.apple.com/us/app/2048-by-gabriele-cirulli/id868076805)
+Project development: Web Development
+Frontend: HTML, CSS, JavaScript, AngularJS, Bootstrap
+Backend: Python, Node.js, MongoDB, ExpressJS
 
-### Contributions
+### Features
+ - Evaluating test
+This module of our project is a test of 10 questions to evaluate the degree of depression in the user and the intensity with which the organization will observe the user. 
+There are 3 degrees of depression in a user, namely, level 1, level 2, and level 3.
+The score of the quiz ranges between 10 and 40, 40 being the most vulnerable user.
+This quiz will be given by the user after registration and his level will be evaluated.
+His response will also be recorded so that the admin may offer additional help later on.
 
-[Anna Harren](https://github.com/iirelu/) and [sigod](https://github.com/sigod) are maintainers for this repository.
+ - Games
+Here, we have included some arcade games to balance the user’s mind by providing a soothing
+experience.
+ 
+ - Calming ubiquity
+We have included soothing images, and motivational quotes so that the user gets a calm vibe.
+One more thing we have focused on is, we have included a calming nature’s sound which will be played in the
+background everytime the site is loaded. 
 
-Other notable contributors:
+ - Working on adding a anonymous forums module and a data analysis tool to aggregate data by region and age. 
 
- - [TimPetricola](https://github.com/TimPetricola) added best score storage
- - [chrisprice](https://github.com/chrisprice) added custom code for swipe handling on mobile
- - [marcingajda](https://github.com/marcingajda) made swipes work on Windows Phone
- - [mgarciaisaia](https://github.com/mgarciaisaia) added support for Android 2.3
-
-Many thanks to [rayhaanj](https://github.com/rayhaanj), [Mechazawa](https://github.com/Mechazawa), [grant](https://github.com/grant), [remram44](https://github.com/remram44) and [ghoullier](https://github.com/ghoullier) for the many other good contributions.
-
-### Screenshot
-
-<p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/1175750/8614312/280e5dc2-26f1-11e5-9f1f-5891c3ca8b26.png" alt="Screenshot"/>
-</p>
-
-That screenshot is fake, by the way. I never reached 2048 :smile:
-
-## Contributing
-Changes and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into `master`! If you can, please make sure the game fully works before sending the PR, as that will help speed up the process.
-
-You can find the same information in the [contributing guide.](https://github.com/gabrielecirulli/2048/blob/master/CONTRIBUTING.md)
-
-## License
-2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
-
-## Donations
-I made this in my spare time, and it's hosted on GitHub (which means I don't have any hosting costs), but if you enjoyed the game and feel like buying me coffee, you can donate at my BTC address: `1Ec6onfsQmoP9kkL3zkpB6c5sA4PVcXU2i`. Thank you very much!
+### Steps to run
+ - Download the zip file and unzip it
+ - Or clone the source files 
+ - Open the browser and run the app.js file in the login file.
